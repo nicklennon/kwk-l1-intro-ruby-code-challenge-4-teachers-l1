@@ -28,8 +28,8 @@ def least_coins(cents)
   
   least_number = {:quarters => quarters, :dimes => dimes, :nickels => nickels, :pennies => pennies}
   
-  least_number.each do |key, value|
-    puts "#{key}: #{value}"
-  end
+  # least_number.each do |key, value|
+  #   puts "#{key}: #{value}"
+  # end
   
 end
